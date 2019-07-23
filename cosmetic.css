@@ -1,0 +1,132 @@
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Arimo&display=swap');
+#wrapper {
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#rectangle{
+    width: 550px;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: -10px 0 0 rgba(255, 255, 255, 0.8), 10px 0 0 rgba(255, 255, 255, 0.8);
+    padding: 0 10px 0 0;
+    color: #FFFFFF;
+    line-height: 14px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+html{
+    background: url("Images/moscow.logo.png") no-repeat;
+    background-position: top -20px center;
+    margin-top: 5%;
+    height: 105px;
+}
+.content {
+    background: url("Images/background2.png") no-repeat, fixed, top;
+    background-size: cover;
+    height: 500px;
+}
+.text{
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 2em;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-rendering: optimizeLegibility;
+    color: #131313;
+    letter-spacing: .15em;
+    margin-bottom: 0;
+}
+
+
+h2{
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    opacity: 0.9;
+    font-size: 2em;
+    text-align: center;
+    text-decoration: none;
+    text-rendering: optimizeLegibility;
+    color: #000;
+    letter-spacing: .15em;
+    margin-bottom: 0;
+    }
+h2.logo2 span{
+    color:red;
+}
+
+hr {
+    width: 300px;
+    border: none; /* Убираем границу */
+    background-color: black; /* Цвет линии */
+    color: black; /* Цвет линии для IE6-7 */
+    height: 2px;} /* Толщина линии */
+a {text-decoration: none;}
+.logo {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 3em;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-rendering: optimizeLegibility;
+    color: #131313;
+    letter-spacing: .15em;
+    margin-bottom: 0;
+    text-shadow:
+      1px -1px 0 #767676,
+      -1px 2px 1px #737272;
+    }
+
+.logo2{
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-rendering: optimizeLegibility;
+    color: #131313;
+    letter-spacing: .15em;
+    margin-bottom: 0;}
+
+
+.nav{text-align: center;}
+.links a {text-decoration: none;
+    color: black}
+.links a:hover {color: red;}
+.links {
+    font: bold 1em "Proxima Nova", sans-serif;
+    text-align: center;
+    letter-spacing: 0;
+    text-transform: uppercase;
+    list-style-type: none;
+    display: inline; /* Отображать как строчный элемент */
+    margin-right: 20px;}
+.social a {
+    text-align: center;
+    width: 35px;
+    height: 35px;
+    float: left;
+    background: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    color: #000; }
+.el_icons ul{
+    text-align: center;
+    list-style-type: none;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);}
+.el_icons li {display: inline}
+.instagram a:hover {background: #3f729b; color: #fff;}
+.vk a:hover {background: #5d84ae; color: #fff;}
+.facebook a:hover {background: #3b5998; color: #fff;}
+.envelope a:hover {background: #3f729b; color: #fff;}
