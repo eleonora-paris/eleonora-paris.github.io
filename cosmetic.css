@@ -4,45 +4,31 @@
     width: 700px;
     margin-left: auto;
     margin-right: auto;
+    background-color: white;
 }
-#service{
+#service, #contacts, #lips, #botulinotherapy, #mezo, #bio, #pilings{
     width: 550px;
     height: 350px;
-    background-color: rgba(255, 255, 255, 0.8);
-    box-shadow: -10px 0 0 rgba(255, 255, 255, 0.8), 10px 0 0 rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.9);
+    box-shadow: -10px 0 0 rgba(255, 255, 255, 0.9), 10px 0 0 rgba(255, 255, 255, 0.9);
     padding: 0 10px 0 0;
     color: #FFFFFF;
     line-height: 14px;
     margin-left: auto;
     margin-right: auto;
-    position: relative;
-    top: 50%;
-    left: 40%;
+    position: absolute;
+    top: 70%;
+    left: 50%;
     transform: translate(-50%, -50%);
     display: none;
 }
-#service:target{display: block;}
+#service:target, #lips:target, #contacts:target, #botulinotherapy:target, #mezo:target, #bio:target, #pilings:target
+{display: block;}
 
-#contacts{
-    width: 550px;
-    height: 350px;
-    background-color: rgba(255, 255, 255, 0.8);
-    box-shadow: -10px 0 0 rgba(255, 255, 255, 0.8), 10px 0 0 rgba(255, 255, 255, 0.8);
-    padding: 0 10px 0 0;
-    color: #FFFFFF;
-    line-height: 14px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    top: 50%;
-    left: 40%;
-    transform: translate(-50%, -50%);
-    display: none;
-}
-#contacts:target{display: block;}
 html{
     background: url("Images/moscow.logo.png") no-repeat;
-    background-position: top -20px center;
+    background-position: top -50px center;
+    background-color: white;
     margin-top: 5%;
     height: 105px;
 }
@@ -62,7 +48,6 @@ html{
     letter-spacing: .15em;
     margin-bottom: 0;
 }
-.text span{color:red}
 
 
 h2{
@@ -76,9 +61,6 @@ h2{
     letter-spacing: .15em;
     margin-bottom: 0;
     }
-h2.logo2 span{
-    color:red;
-}
 
 hr {
     width: 300px;
@@ -87,42 +69,68 @@ hr {
     color: black; /* Цвет линии для IE6-7 */
     height: 2px;} /* Толщина линии */
 a {text-decoration: none;}
-.logo {
+
+.logo, .logo2, .table {
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
-    font-size: 3em;
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
     text-rendering: optimizeLegibility;
-    color: #131313;
     letter-spacing: .15em;
     margin-bottom: 0;
+}
+
+.logo {
+    color: #131313;
+    font-size: 3em;
     text-shadow:
       1px -1px 0 #767676,
       -1px 2px 1px #737272;
     }
 
 .logo2{
-    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    color: #131313;
     font-size: 1em;
-    font-weight: bold;
+    font-weight: bold;}
+.logo2 p{
     text-align: center;
+    color:#6699ff
+}
+.logo2 h2{
+    text-align: left;
+}
+.logo2 span {
+    text-align: left;
+    color: #6699ff;
+}
+.logo2 li{text-align: left}
+
+.table {
+    margin: auto;
+    text-align: left;
+}
+.list{
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 0.9em;
+    text-align: left;
     text-transform: uppercase;
     text-decoration: none;
     text-rendering: optimizeLegibility;
     color: #131313;
     letter-spacing: .15em;
     margin-bottom: 0;}
-.logo2 span{
-    color: red;
+.list a{text-decoration: none;
+    color:black}
+.list a:hover{
+    color: #6699ff;
 }
-
 .nav{text-align: center;}
-.links a {text-decoration: none;
+.links a {
+    text-decoration: none;
     color: black}
 .links a:hover {color: red;}
 .links {
-    font: bold 1em "Proxima Nova", sans-serif;
     text-align: center;
     letter-spacing: 0;
     text-transform: uppercase;
@@ -142,6 +150,69 @@ a {text-decoration: none;}
     margin-right: auto;
     padding: 10px;
     color: #000; }
+
+table {
+    font-size: 14px;
+    max-width: 70%;
+    width: 70%;
+    border-collapse: collapse;
+    text-align: left;
+}
+th {
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-weight: bold;
+    color: black;
+    padding: 10px 8px;
+}
+td {
+  color: black;
+  padding: 9px 8px;
+  transition: .3s linear;
+}
+tr:hover td {color: #6699ff;}
+.close {
+float: right;
+position: absolute;
+right: 32px;
+top: 32px;
+width: 32px;
+height: 32px;
+opacity: 0.3;
+}
+.close:hover {
+opacity: 1;
+}
+.close:before, .close:after {
+position: absolute;
+left: 15px;
+content: ' ';
+height: 33px;
+width: 2px;
+background-color: #333;
+}
+.close:before {
+transform: rotate(45deg);
+}
+.close:after {
+transform: rotate(-45deg);
+}
+.arrow-left {
+    float: left;
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-right: 30px solid black;
+}
+.arrow-right {
+    margin-bottom: 10px;
+    float: right;
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left: 30px solid black;
+}
 .el_icons ul{
     text-align: center;
     list-style-type: none;
@@ -149,7 +220,23 @@ a {text-decoration: none;}
     left: 50%;
     transform: translateX(-50%);}
 .el_icons li {display: inline}
+.arrow-left:hover {
+    float: left;
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-right: 30px solid #6699ff;}
+.arrow-right:hover{
+    float: right;
+    width: 0;
+    height: 0;
+    border-top: 30px solid transparent;
+    border-bottom: 30px solid transparent;
+    border-left:30px solid #6699ff;}
 .instagram a:hover {background: #3f729b; color: #fff;}
 .vk a:hover {background: #5d84ae; color: #fff;}
 .facebook a:hover {background: #3b5998; color: #fff;}
 .envelope a:hover {background: #3f729b; color: #fff;}
+.telegram a:hover {background: #249bd7; color: #fff;}
+
