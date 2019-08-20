@@ -9,8 +9,8 @@
     background-color: white;
 }
 #service, #contacts, #lips, #botulinotherapy, #mezo, #bio, #pilings{
-    width: 70em;
-    height: 50em;
+    width: 550px;
+    height: 350px;
     background-color: rgba(255, 255, 255, 0.9);
     box-shadow: -10px 0 0 rgba(255, 255, 255, 0.9), 10px 0 0 rgba(255, 255, 255, 0.9);
     padding: 0 10px 0 0;
