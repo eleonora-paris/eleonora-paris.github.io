@@ -132,14 +132,14 @@ a {text-decoration: none;}
     color: black}
 .links a:hover {color: red;}
 .links {
-    text-align: center;
+    text-align: left;
     letter-spacing: 0;
     text-transform: uppercase;
     list-style-type: none;
     display: inline; /* Отображать как строчный элемент */
     margin-right: 20px;}
 .social a {
-    text-align: center;
+    text-align: left;
     width: 30px;
     height: 30px;
     float: left;
@@ -170,31 +170,6 @@ td {
   transition: .3s linear;
 }
 tr:hover td {color: #6699ff;}
-.close {
-position: center;
-right: 32px;
-top: 32px;
-width: 32px;
-height: 32px;
-opacity: 0.3;
-}
-.close:hover {
-opacity: 1;
-}
-.close:before, .close:after {
-position: absolute;
-left: 15px;
-content: ' ';
-height: 33px;
-width: 2px;
-background-color: #333;
-}
-.close:before {
-transform: rotate(45deg);
-}
-.close:after {
-transform: rotate(-45deg);
-}
 .arrow-left {
     float: left;
     width: 0;
