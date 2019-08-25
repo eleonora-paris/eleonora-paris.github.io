@@ -29,14 +29,13 @@
 
 html{
     background: url("Images/moscow.logo.png") no-repeat;
-    background-position: top -100px center;
+    background-position: top 100px center;
     background-color: white;
-    margin-top: 15%;
     height: 105px;
 }
 .content {
     background: url("Images/mobile.png") no-repeat, fixed, top;
-    background-size: cover;
+    background-size: content;
     height: 400px;
 }
 .text{
@@ -148,8 +147,7 @@ a {text-decoration: none;}
     border: 1px solid #ccc;
     box-shadow: 0 2px 4px rgba(0,0,0,0.15), inset 0 0 50px rgba(0,0,0,0.1);
     border-radius: 40px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 0;
     padding: 10px;
     color: #000; }
 
