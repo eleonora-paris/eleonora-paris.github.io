@@ -4,6 +4,7 @@
     background-color: white;
     width: 100%;
     margin: 0;
+    margin-top: 10%;
     padding: 0;
     min-width: 0;
 }
@@ -28,15 +29,15 @@
 
 html{
     background: url("Images/moscow.logo.png") no-repeat;
-    background-position: top -50px center;
+    background-position: top -100px center;
     background-color: white;
-    margin-top: 5%;
+    margin-top: 15%;
     height: 105px;
 }
 .content {
     background: url("Images/mobile..png") no-repeat, fixed, top;
     background-size: cover;
-    height: 500px;
+    height: 400px;
 }
 .text{
     font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
