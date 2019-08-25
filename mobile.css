@@ -35,7 +35,7 @@ html{
     height: 105px;
 }
 .content {
-    background: url("Images/mobile..png") no-repeat, fixed, top;
+    background: url("Images/mobile.png") no-repeat, fixed, top;
     background-size: cover;
     height: 400px;
 }
@@ -173,8 +173,7 @@ td {
 }
 tr:hover td {color: #6699ff;}
 .close {
-float: right;
-position: absolute;
+position: center;
 right: 32px;
 top: 32px;
 width: 32px;
@@ -215,13 +214,13 @@ transform: rotate(-45deg);
     border-bottom: 30px solid transparent;
     border-left: 30px solid black;
 }
+.el_icons li {display: inline}
 .el_icons ul{
     text-align: center;
     list-style-type: none;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);}
-.el_icons li {display: inline}
 .arrow-left:hover {
     float: left;
     width: 0;
