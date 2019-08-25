@@ -34,7 +34,7 @@ html{
     height: 105px;
 }
 .content {
-    background: url("Images/background2.png") no-repeat, fixed, top;
+    background: url("Images/mobile..png") no-repeat, fixed, top;
     background-size: cover;
     height: 500px;
 }
@@ -153,7 +153,7 @@ a {text-decoration: none;}
     color: #000; }
 
 table {
-    font-size: 14px;
+    font-size: 10px;
     max-width: 70%;
     width: 70%;
     border-collapse: collapse;
