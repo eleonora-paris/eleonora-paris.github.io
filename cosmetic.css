@@ -25,6 +25,9 @@
 #service:target, #lips:target, #contacts:target, #botulinotherapy:target, #mezo:target, #bio:target, #pilings:target
 {display: block;}
 
+footer{
+    flex: 0 0 auto;"
+}
 html{
     background: url("Images/moscow.logo.png") no-repeat;
     background-position: top -50px center;
