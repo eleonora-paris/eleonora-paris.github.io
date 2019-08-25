@@ -34,7 +34,7 @@ html{
     height: 105px;
 }
 .content {
-    background: url("Images/mobile.png") no-repeat, fixed, top;
+    background: url("Images/background2.png") no-repeat, fixed, top;
     background-size: content;
     height: 400px;
 }
