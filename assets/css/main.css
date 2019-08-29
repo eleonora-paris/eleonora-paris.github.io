@@ -40,7 +40,9 @@ label { color: #777; }
 .text-muted { color:#888; }
 .breadcrumb { background:none; padding:0; margin:30px 0 0px 0; }
 ul.list-spaces li{ margin-bottom:10px; }
-
+ul.contacts{list-style: none}
+li.follow-me-icons a {text-decoration: none;
+					  color: black;}
 /* Helpers */
 .container-full { margin: 0 auto; width: 100%; }
 .top-space { margin-top: 60px; }
