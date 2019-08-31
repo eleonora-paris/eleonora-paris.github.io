@@ -46,7 +46,7 @@ img{
 nav.navbar.navbar-default.navbar-fixed-top {
 	    position: absolute;
 		    border: none;
-background-color:rgba(255, 255, 255, 0.27);
+background-color:rgba(2, 2, 2, 0.51);
 }
 .navbar-nav {
     float:none; 
@@ -60,7 +60,7 @@ div#navbar {
     padding: 0px ;
 }
 ul.nav.navbar-nav li a {
-    font-size:17px;
+    font-size:20px;
     color: #fff;
 	border-bottom: 2px solid rgba(0, 0, 0, 0);
 	padding: 20px 0px;
@@ -134,7 +134,7 @@ ul.dropdown-menu {
 .head-wl h1 a {
     text-transform: capitalize;
     color: #f14156;
-    font-size: 50px;
+    font-size: 30px;
     display: block;
     letter-spacing: 5px;
 }
@@ -147,7 +147,7 @@ h6.caption {
 }
 
 .email-right p a,
-.w3-header-top-right-text p,
+.w3-header-top-right-text p a,
 .agileinfo-social-grids ul li a {
     font-size: 14px;
     color:#f14156;
@@ -169,6 +169,7 @@ h6.caption {
 }
 
 .email-right p a:hover,
+.w3-header-top-right-text p a:hover,
 .agileinfo-social-grids ul li a :hover {
     color: #fff;
     transition: 0.5s all;
@@ -252,6 +253,7 @@ h6.caption {
 }
 .banner-text span {
     display: block;
+    font-size: 30px;
     line-height: 1.8em;
     font-style: italic;
     font-weight: 400;
@@ -352,6 +354,28 @@ h3.center:after {
     content: "";
     margin: 10px auto 0;
 }
+table {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 14px;
+  background: white;
+  max-width: 70%;
+  width: 70%;
+  border-collapse: collapse;
+  text-align: left;
+}
+th {
+  font-weight: normal;
+  color: #039;
+  border-bottom: 2px solid red;
+  padding: 10px 8px;
+}
+td {
+  color: #669;
+  padding: 9px 8px;
+  transition: .3s linear;
+}
+tr:hover td {color: #6699ff;}
+
 .d-flex {
   display: -ms-flexbox;
   display: flex;
@@ -376,6 +400,7 @@ h3.center:after {
     color: #0e51aa;
 }
 .about1 h5 {
+    text-align: center;
     color: #f14156;
     font-weight: 700;
     font-size: 20px;
@@ -383,6 +408,7 @@ h3.center:after {
     font-style: italic;
 }
 .about-3 p {
+    text-align: center;
     font-size: 14px;
     color: #777;
     line-height: 1.8em;
@@ -412,7 +438,7 @@ ul.about-list li span.fa {
     color: #191826;
 }
 .about2 {
-    background: url(../images/b2.jpg) no-repeat;
+    background: url(../images/g1.jpg) no-repeat;
     background-size: cover;
     background-position: center;
     /* background-attachment: fixed; */
@@ -426,7 +452,6 @@ a.join-wthree {
     padding: 12px 30px;
     border-radius: 25px;
     text-decoration: none;
-    margin-top: 30px;
     -webkit-transition: .5s ease-in;
     -moz-transition: .5s ease-in;
     -o-transition: .5s ease-in;
@@ -699,7 +724,7 @@ p.white-clrf {
     margin: 0 2em 0 0;
 }
 .pricing-grid h3 {
-    font-size: 1.6em;
+    font-size: 1.1em;
     font-weight: 400;
     color: #000;
     text-transform: capitalize;
@@ -732,7 +757,6 @@ p.white-clrf {
     text-transform: uppercase;
     padding: 1em 0em;
     border-radius: 5px 5px 0;
-    border-bottom: 2px solid #f14156;
 }
 .w3ls-bottom {
     padding: 0;
@@ -744,6 +768,15 @@ p.white-clrf {
     letter-spacing: 1px;
     padding-top: 1em;
     line-height: 1.8em;
+    display: block;
+}
+.w3ls-top ul li {
+    font-size: 15px;
+    color: #777;
+    margin-top: 1em;
+    letter-spacing: 1px;
+    padding-top: 1em;
+    line-height: 1.6em;
     display: block;
 }
 .more a {
@@ -2332,7 +2365,7 @@ h6.caption {
     font-size: 18px;
     letter-spacing: 1px;
 }
-.email-right p a, .w3-header-top-right-text p, .agileinfo-social-grids ul li a {
+.email-right p a, .w3-header-top-right-text p a, .agileinfo-social-grids ul li a {
     letter-spacing: 1px;
 }
 .mwho-we-textmks {
@@ -2486,7 +2519,7 @@ a.join-wthree {
 }
 @media screen and (max-width: 767px){
 	.head-wl h1 a {
-    font-size: 43px;
+    font-size: 25px;
     padding: 5px 0px 0px;
     
 }
@@ -2592,7 +2625,7 @@ nav.navbar.navbar-default.navbar-fixed-top {
     padding: 1em 0em;
 }
 .head-wl h1 a {
-    font-size: 47px;
+    font-size: 25px;
     letter-spacing: 0px;
 }
 .view, .view .mask, .view .content {
