@@ -15,96 +15,12 @@
 	#head { min-height:420px; padding-top:160px; }
 	#head .lead { font-size: 34px; }
 }
-@media screen and (max-width: 600px) {
-	.nav1 {
-		position: relative;
-		min-height: 40px;
-	}	
-	.nav1 ul {
-		width: 180px;
-		padding: 5px 0;
-		position: absolute;
-		top: 0;
-		left: 0;
-		border: solid 1px #aaa;
-		background: #FFFAFA url(assets/images/icon-menu.png) no-repeat 10px 11px;
-		border-radius: 5px;
-		box-shadow: 0 1px 2px rgba(0,0,0,.3);
-	}
-	.nav1 li {
-		display: none; /* скрыть все <li> пункты */
-		margin: 0;
-	}
-	.nav1 .current {
-		display: block; /* показывать только текущие активные <li> пункты */
-	}
-	.nav1 a {
-		display: block;
-		padding: 5px 5px 5px 32px;
-		text-align: left;
-	}
-	.nav1 .current a {
-		background: none;
-		color: #666;
-	}
- 
-	/* при наведении на пункты меню */
-	.nav1 ul:hover {
-		background-image: none;
-	}
-	.nav1 ul:hover li {
-		display: block;
-		margin: 0 0 5px;
-	}
-	.nav1 ul:hover .current {
-		background: url(images/icon-check.png) no-repeat 10px 7px;
-	}
- 
-	/* адаптивное меню справа */
-	.nav1.right ul {
-		left: auto;
-		right: 0;
-	}
- 
- 
-}
+
 
 /* Autohide navbar */
 .slideUp { top:-100px; }
 .headroom { -webkit-transition: all 0.4s ease-out; -moz-transition: all 0.4s ease-out; -o-transition: all 0.4s ease-out; transition: all 0.4s ease-out; }
-.nav1{
-	margin: 20px 0;
-}
-.nav1 ul {
-	margin: 0;
-	padding: 0;
-}
-.nav1 li {
-	margin: 0 5px 10px 0;
-	padding: 0;
-	list-style: none;
-	display: inline-block;
-	*display:inline; /* ie7 */
-}
-.nav1 a {
-	padding: 3px 12px;
-	text-decoration: none;
-	color: #999;
-	line-height: 100%;
-}
-.nav1 a:hover {
-	color: #FFFFFF;
-}
-.nav1 .current a {
-	background: #999;
-	color: #fff;
-	border-radius: 3px;
-}
-.nav2{
-	background: black;
-	color: white;
-}
-}
+
 
 /* Highlights (in jumbotron in most cases) */
 .highlight { margin-top:40px; }
