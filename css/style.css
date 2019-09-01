@@ -15,6 +15,11 @@ p,ul li,ol li{
 	font-size:14px;
 	line-height:26px;
 }
+.green{color:green;}
+.blue{color:#4682B4;}
+.white{color:white;}
+.red{color:#EE82EE;}
+
 h1,h2,h3,h4,h5,h6{
 	margin:0;
 	font-family: 'PT Serif', serif;
@@ -150,7 +155,6 @@ h6.caption {
 .w3-header-top-right-text p a,
 .agileinfo-social-grids ul li a {
     font-size: 14px;
-    color:#f14156;
     letter-spacing: 2px;
 }
 
