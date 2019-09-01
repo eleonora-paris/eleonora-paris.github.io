@@ -134,7 +134,7 @@ ul.dropdown-menu {
 .head-wl h1 a {
     text-transform: capitalize;
     color: #f14156;
-    font-size: 30px;
+    font-size: 35px;
     display: block;
     letter-spacing: 5px;
 }
@@ -481,10 +481,10 @@ a.join-wthree:hover {
 }
 .heading-agileinfo span {
     display: block;
-    font-size: 17px!important;
+    font-size: 20px!important;
     margin-top: 1em;
     letter-spacing: 4px;
-    text-transform: capitalize;
+    text-transform: none;
     color: #000000;
     font-weight: 500;
 }
@@ -825,7 +825,7 @@ p.white-clrf {
 .flex-active-slide p {
     line-height: 30px;
     text-align: center;
-    color: #777;
+    color: red;
     font-style: italic;
     width: 70%;
     margin: 30px auto;
@@ -1519,6 +1519,21 @@ table.table.table-striped,.table-bordered,.bs-docs-example {
 }
 /*--contact--*/
 
+.contact {
+    text-align: center;   
+}
+.blackcolor{color: black;}
+
+.contact li{
+    color: black;
+    font-family: 'PT Serif', serif;
+    list-style-type: none;
+    font-size: 1.5em;}
+.contact a{
+    font-size: 2em;
+    text-decoration: none;
+    color: black;
+}
 .contact-text {
 	background: url(../images/banner5.jpg) no-repeat 0px 0px;
 	min-height: 450px;
@@ -1826,7 +1841,7 @@ p.quia {
 }
 .view {
     margin: 0;
-    float: none;
+    float: right;
     overflow: hidden;
     position: relative;
     text-align: center;
@@ -2525,7 +2540,7 @@ a.join-wthree {
 }
 .navbar-toggle {background:#ff4f81;}
 .icon-bar {background:white;}
-.navbar-header{background:rgba(230, 102, 102, 0);}
+.navbar-header{background:rgba(transparent none repeat 0 0;)}
 .navbar-toggle {
 margin-right: 28px;
 }
@@ -2550,7 +2565,7 @@ ul.nav.navbar-nav li a:hover {color:#f14156;
     background:rgb(0, 0, 0);
 }
 nav.navbar.navbar-default.navbar-fixed-top {
-    background-color:rgb(255, 251, 251);
+    background-color:rgb(transparent none repeat 0 0;)
 }
  .navbar-nav {
     padding: 10px 0 12px;
